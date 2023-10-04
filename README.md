@@ -18,6 +18,10 @@ Hier beschrijf ik de stappen van LEDstrip kleur instellen via een colorpicker me
          Kleine aanpasing
     Stap 5: Code uploaden (of druk eerst op het vinkje =  Verify)
        Geverifieerd
+       Verander nu in Adafruit IO de kleur, dat zie je terug in de Serial monitor
+         (ik begrijp dit niet. In de code of op de website)
+         ik heb de kleur aangepast in de color picker, zie niks in de serial monitor
+         
        
 
 
