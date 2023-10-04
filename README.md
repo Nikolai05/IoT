@@ -23,7 +23,8 @@ Hier beschrijf ik de stappen van LEDstrip kleur instellen via een colorpicker me
          (ik begrijp dit niet. In de code of op de website)
          ik heb de kleur aangepast in de color picker, zie niks in de serial monitor
          Ik was dus niet verbonden...
-         
+         Led strip reageerd niet
+         Hij is goed aangesloten
        
 
 
