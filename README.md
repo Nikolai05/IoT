@@ -35,7 +35,7 @@ We need to install a library to connect Adafruit web to the Arduino.
 1. Open Arduino IDE
 2. Go to the library manager and search for “Adafruit IO Arduino”
 
-<img width="198" alt=image src="https://github.com/Nikolai05/IoT/2.png">
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/blob/main/2.png">
 
 [Troubleshooter]
 
@@ -51,17 +51,17 @@ To use Adafruit you will have to make an account to use the dashboard.
 
 1. Go to https://io.adafruit.com/ and make a free account.
 2. Your account has a dedicated key which you need to use later in Arduino. Click on the ‘Key’ icon next to ‘New Device’. Copy your username and your key.
-<img width="198" alt=image src="https://github.com/Nikolai05/IoT/3.png">
-<img width="198" alt=image src="https://github.com/Nikolai05/IoT/4.png">
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/blob/main/3.png">
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/blob/main/4.png">
 
 # Step 4: Color picker
 
 1. Go to the dashboard tab and create a new dashboard
-<img width="198" alt=image src="https://github.com/Nikolai05/IoT/5.png">
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/blob/main/5.png">
 
 2. Give it a name and navigate into your new dashboard
 3. Click on the icon and select “create a new block” and select the color picker.
-<img width="198" alt=image src="https://github.com/Nikolai05/IoT/6.png">    
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/blob/main/6.png">    
 4. Make a new feed called ‘color’.
 
 # Step 5: Jump into the code
