@@ -1,13 +1,6 @@
 # IoT
-  ## IOT Quickstart Adafruit IO (v.4)
-  
-      
-  ### Step 2: Adafruit IO Setup
-      
-      
-  ### Step 3: Make Adafruit IO Feed and Colorpicker
-      Aanmaken van dashboard, block en colorpicker toevogen.
-      
+
+
   ### Step 4: Open Arduino
        File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel
        In tab ‘config.h’: plak je Adafruit IO username en Key in
@@ -47,6 +40,8 @@ By Nikolai Puisto
       2.  Hold your ledstrip in a way that GND is located at the top. Now grab the GND cable (cable at the top) and plug it into the GND spot on your board
       3. Grab the Din cable and plug it into D5.
       4. Grab the +5V cable and plug it into 3V3.   
+
+    ![Untitled](https://github.com/Nikolai05/IoT/assets/112857741/14c5811b-3833-4e6e-b9d7-94881c5497fc)
 
 
 
@@ -108,6 +103,9 @@ To use Adafruit you will have to make an account to use the dashboard.
 2. In the 'config.h' tab: Paste your Adafruit username and your key where it says “#define IO_USERNAME” and “#define IO_KEY”
 
 [**Important**]
+
+Can't find config.h? Here it is
+
 
 The ESP8266 can only connect via the 2.4Ghz network, so be sure your wifi emits a 2.4Ghz frequency. Not sure how? Click [here](https://getnexx.com/pages/how-to-tell-if-you-have-2-4-ghz-or-5-ghz-wifi-network#:~:text=Open%20your%20networks%20panel%20from,say%202.4GHz%20or%205GHz.). 
 
