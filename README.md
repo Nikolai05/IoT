@@ -1,28 +1,5 @@
 # IoT
-
-
-  ### Step 4: Open Arduino
-       File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel
-       In tab ‘config.h’: plak je Adafruit IO username en Key in
-         (Waar is config tab?) ---- 15 minuten zoeken en denken ----> tab? ahhhh... boven!
-       In tab ‘config.h’: voer het wifi netwerk en wachtwoord in
-         Hotspot aangedaan en gegevens ingevoerd in config.h
-       In de Tab adafruit_14_Neopixel.ino
-         #define PIXEL_PIN 5 aanpassen naar #define PIXEL_PIN D5
-         Kleine aanpasing
-   
-  ### Step 5: Upload the code (of druk eerst op het vinkje =  Verify)
-       Geverifieerd
-       Verbonden
-       Verander nu in Adafruit IO de kleur, dat zie je terug in de Serial monitor
-         (ik begrijp dit niet. In de code of op de website)
-         ik heb de kleur aangepast in de color picker, zie niks in de serial monitor
-         Ik was dus niet verbonden...
-         Led strip reageerd niet ----volgende dag ---> gelukt! Wie weet waarom eerst niet
-         Hij is goed aangesloten
-       
-
-# Philips Hue under **€**5
+## Philips Hue with Adafruit IO
 
 By Nikolai Puisto
 
@@ -41,11 +18,7 @@ By Nikolai Puisto
       3. Grab the Din cable and plug it into D5.
       4. Grab the +5V cable and plug it into 3V3.   
 
-    ![Untitled](https://github.com/Nikolai05/IoT/assets/112857741/14c5811b-3833-4e6e-b9d7-94881c5497fc)
-
-
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a11f998-0b79-44b1-9e36-cfbe0f2eeb76/87ec4fbb-413e-4a3a-b301-2ad4c346a8fd/Untitled.png)
+![1](https://github.com/Nikolai05/IoT/assets/112857741/7a28f084-bdc1-4657-920b-705fcb9d6eb4)
 
 1. Now plug your USB into your board and pc.
 
@@ -60,9 +33,7 @@ We need to install a library to connect Adafruit web to the Arduino.
 
 1. Open Arduino IDE
 2. Go to the library manager and search for “Adafruit IO Arduino”
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a11f998-0b79-44b1-9e36-cfbe0f2eeb76/015b9c81-4b4a-4568-80fd-85c87cba88ee/Untitled.png)
-    
+
 
 [Troubleshooter]
 
@@ -78,22 +49,16 @@ To use Adafruit you will have to make an account to use the dashboard.
 
 1. Go to https://io.adafruit.com/ and make a free account.
 2. Your account has a dedicated key which you need to use later in Arduino. Click on the ‘Key’ icon next to ‘New Device’. Copy your username and your key.
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a11f998-0b79-44b1-9e36-cfbe0f2eeb76/2799b5fd-318d-4f97-bd1d-ae880701c7f2/Untitled.png)
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a11f998-0b79-44b1-9e36-cfbe0f2eeb76/efa273bb-9ce4-4aac-aee0-a335deb31f87/Untitled.png)
-    
+
 
 # Step 4: Color picker
 
 1. Go to the dashboard tab and create a new dashboard
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a11f998-0b79-44b1-9e36-cfbe0f2eeb76/84e58428-c4b1-4972-b099-618eb3b5cb65/Untitled.png)
 
 1. Give it a name and navigate into your new dashboard
 2. Click on the icon and select “create a new block” and select the color picker.
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a11f998-0b79-44b1-9e36-cfbe0f2eeb76/b9b14752-4a57-4422-8406-1f47614de9a8/Untitled.png)
+
     
 3. Make a new feed called ‘color’.
 
@@ -121,14 +86,10 @@ For Android users: click [here](https://www.cnet.com/tech/mobile/need-to-speed-u
 # Step 6: Upload the code
 
 1. Open the serial monitor and change the value to 115200 baud.
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a11f998-0b79-44b1-9e36-cfbe0f2eeb76/ee96d4b1-07df-4954-a7ab-7e8e0a1ae084/Untitled.png)
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a11f998-0b79-44b1-9e36-cfbe0f2eeb76/26628513-6d14-4ea3-93da-04c9c4769367/Untitled.png)
+
     
 2. Press the upload icon 
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a11f998-0b79-44b1-9e36-cfbe0f2eeb76/bd284609-0683-421d-85fd-d689d269a7e6/Untitled.png)
+
     
 3. The serial monitor will now be emitting dots. It can take a moment for the board to connect to your wifi and Adafruit IO.
 4. When it says ‘Adafruit IO connected’ in the serial monitor, you can head over to Adafruit IO Dashboard and click on the color picker you made earlier.
