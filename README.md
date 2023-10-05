@@ -18,7 +18,6 @@ By Nikolai Puisto
       3. Grab the Din cable and plug it into D5.
       4. Grab the +5V cable and plug it into 3V3.   
 
-![1](https://github.com/Nikolai05/IoT/assets/112857741/7a28f084-bdc1-4657-920b-705fcb9d6eb4)
 
 1. Now plug your USB into your board and pc.
 
