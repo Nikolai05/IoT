@@ -18,7 +18,7 @@ By Nikolai Puisto
       3. Grab the Din cable and plug it into D5.
       4. Grab the +5V cable and plug it into 3V3.   
 
-<img width="198" alt=image src="https://github.com/Nikolai05/IoT/assets/112857741/5d957ab5-d809-4a0e-8374-64879ad9f6a">
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/1">
 
 
 1. Now plug your USB into your board and pc.
@@ -35,12 +35,13 @@ We need to install a library to connect Adafruit web to the Arduino.
 1. Open Arduino IDE
 2. Go to the library manager and search for “Adafruit IO Arduino”
 
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/2">
 
 [Troubleshooter]
 
 - Doesn’t show up? Make sure you typed it correctly.
 
-1. Click on install all
+3. Click on install all
     
     
 
@@ -50,18 +51,18 @@ To use Adafruit you will have to make an account to use the dashboard.
 
 1. Go to https://io.adafruit.com/ and make a free account.
 2. Your account has a dedicated key which you need to use later in Arduino. Click on the ‘Key’ icon next to ‘New Device’. Copy your username and your key.
-
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/3">
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/4">
 
 # Step 4: Color picker
 
 1. Go to the dashboard tab and create a new dashboard
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/5">
 
-
-1. Give it a name and navigate into your new dashboard
-2. Click on the icon and select “create a new block” and select the color picker.
-
-    
-3. Make a new feed called ‘color’.
+2. Give it a name and navigate into your new dashboard
+3. Click on the icon and select “create a new block” and select the color picker.
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/6">    
+4. Make a new feed called ‘color’.
 
 # Step 5: Jump into the code
 
