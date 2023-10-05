@@ -88,6 +88,7 @@ For Android users: click [here](https://www.cnet.com/tech/mobile/need-to-speed-u
 # Step 6: Upload the code
 
 1. Open the serial monitor and change the value to 115200 baud.
+
 <img width="198" alt=image src="https://github.com/Nikolai05/IoT/blob/main/7.png">
 <img width="198" alt=image src="https://github.com/Nikolai05/IoT/blob/main/8.png">   
 2. Press the upload icon 
