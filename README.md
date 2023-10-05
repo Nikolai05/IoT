@@ -88,10 +88,10 @@ For Android users: click [here](https://www.cnet.com/tech/mobile/need-to-speed-u
 # Step 6: Upload the code
 
 1. Open the serial monitor and change the value to 115200 baud.
-
-    
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/blob/main/7.png">
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/blob/main/8.png">   
 2. Press the upload icon 
-
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/blob/main/9.png">
     
 3. The serial monitor will now be emitting dots. It can take a moment for the board to connect to your wifi and Adafruit IO.
 4. When it says ‘Adafruit IO connected’ in the serial monitor, you can head over to Adafruit IO Dashboard and click on the color picker you made earlier.
