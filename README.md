@@ -1,6 +1,6 @@
 # IoT
-Hier beschrijf ik de stappen van LEDstrip kleur instellen via een colorpicker met Adafruit IO
-  IOT Quickstart Adafruit IO (v.4)
+# Hier beschrijf ik de stappen van LEDstrip kleur instellen via een colorpicker met Adafruit IO
+  ## IOT Quickstart Adafruit IO (v.4)
     Stap 1: Installeer de Arduino IO libraries
       Het installeren van de library ging foutloos, vrij eenvoudig.
     Stap 2: Adafruit IO Setup
