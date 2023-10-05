@@ -1,19 +1,6 @@
 # IoT
   ## IOT Quickstart Adafruit IO (v.4)
-  ### Introduction
-    In this Notion I’ll be guiding you through the steps of making an Arduino (ESP8266) act like an expensive Philips Hue system and saving you money. We’ll be using Adafruit IO and their dashboard to change colors on     your RGB ledstrip using a color picker.
-
-  ## What you’ll need
-    - Arduino Board ESP8266
-    - RGB LEDstrip
-    - microUSB to USB-C
-    
-  ### Step 1: Plugging everything in
-    So to make this work, we obviously want to plug every cable into the right spot, so let me guide you through this process. 
-      1. Grab your ESP8266 and your RGB strip
-      2.  Hold your ledstrip in a way that GND is located at the top. Now grab the GND cable (cable at the top) and plug it into the GND spot on your board
-      3. Grab the Din cable and plug it into D5.
-      4. Grab the +5V cable and plug it into 3V3.   
+  
       
   ### Step 2: Adafruit IO Setup
       
@@ -44,17 +31,22 @@
 
 # Philips Hue under **€**5
 
-By Mack Hooijman
+By Nikolai Puisto
 
-# Introduction
+  ### Introduction
+    In this Notion I’ll be guiding you through the steps of making an Arduino (ESP8266) act like an expensive Philips Hue system and saving you money. We’ll be using Adafruit IO and their dashboard to change colors on     your RGB ledstrip using a color picker.
 
-In this Notion I’ll be guiding you through the steps of making an Arduino (ESP8266) act like an expensive Philips Hue system and saving you money. We’ll be using Adafruit IO and their dashboard to change colors on your RGB ledstrip using a color picker.
-
-## What you’ll need
-
-- Arduino Board ESP8266
-- RGB LEDstrip
-- microUSB to USB-C
+  ## What you’ll need
+    - Arduino Board ESP8266
+    - RGB LEDstrip
+    - microUSB to USB-C
+    
+  ### Step 1: Plugging everything in
+    So to make this work, we obviously want to plug every cable into the right spot, so let me guide you through this process. 
+      1. Grab your ESP8266 and your RGB strip
+      2.  Hold your ledstrip in a way that GND is located at the top. Now grab the GND cable (cable at the top) and plug it into the GND spot on your board
+      3. Grab the Din cable and plug it into D5.
+      4. Grab the +5V cable and plug it into 3V3.   
 
 
 
