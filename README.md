@@ -73,6 +73,7 @@ To use Adafruit you will have to make an account to use the dashboard.
 
 Can't find config.h? Here it is
 
+<img width="198" alt=image src="https://github.com/Nikolai05/IoT/blob/main/10.png">
 
 The ESP8266 can only connect via the 2.4Ghz network, so be sure your wifi emits a 2.4Ghz frequency. Not sure how? Click [here](https://getnexx.com/pages/how-to-tell-if-you-have-2-4-ghz-or-5-ghz-wifi-network#:~:text=Open%20your%20networks%20panel%20from,say%202.4GHz%20or%205GHz.). 
 
